@@ -1,0 +1,36 @@
+<resources>
+
+    <style name="Base.Theme.HMKCodeApp" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="colorPrimary">@color/teal_500</item>
+
+        <item name="colorPrimaryDark">@color/teal_400</item>
+
+        <item name="colorAccent">@color/teal_900</item>
+
+        <item name="android:textColorPrimary">@color/my_primary_text</item>
+
+        <item name="android:textColorSecondary">@color/my_secondary_text</item>
+
+
+        <item name="android:windowBackground">@color/window_background</item>
+    </style>
+    <style name="AppBaseTheme" parent="Base.Theme.HMKCodeApp">
+    </style>
+
+    <style name="AppTheme" parent="AppBaseTheme">
+    </style>
+
+
+    <style name="ProgressBarBig">
+        <item name="android:indeterminateDrawable">@drawable/progress_big</item>
+        <item name="android:minWidth">48dip</item>
+        <item name="android:maxWidth">48dip</item>
+        <item name="android:minHeight">48dip</item>
+        <item name="android:maxHeight">48dip</item>
+        <item name="android:indeterminateOnly">true</item>
+        <item name="android:indeterminateBehavior">repeat</item>
+        <item name="android:indeterminateDuration">3500</item>
+    </style>
+
+</resources>

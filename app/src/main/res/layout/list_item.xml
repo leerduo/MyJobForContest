@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="8dp"
+        android:src="@drawable/a47" />
+
+    <TextView
+        android:id="@+id/company"
+        android:textColor="@color/shadow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/icon"
+        android:layout_marginLeft="3dp"
+        android:layout_toRightOf="@+id/icon"
+        android:text="中国电子科技集团公司第二十九研究所"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:textSize="12sp"
+
+        />
+
+    <TextView
+        android:textColor="@color/shadow"
+
+
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="3dp"
+        android:layout_toRightOf="@+id/icon"
+        android:text="2015-09-17 18:00:00"
+        android:textSize="12sp"
+
+        />
+
+    <TextView
+        android:textColor="@color/shadow"
+
+        android:id="@+id/address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/icon"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="3dp"
+        android:layout_toRightOf="@+id/icon"
+        android:text="西区学生活动中心一楼报告厅"
+        android:textSize="12sp" />
+
+</RelativeLayout>

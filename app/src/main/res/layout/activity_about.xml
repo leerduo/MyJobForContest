@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    tools:context="me.chenfuduo.myjob.AboutActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:fitsSystemWindows="true" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="校招小秘"
+        android:gravity="center_horizontal"
+        android:textSize="20sp"
+        android:layout_marginTop="8dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="校招小秘是查看校园宣讲会的小工具,方便。"
+        android:textSize="15sp"
+        android:textColor="@color/teal_500"
+        android:layout_marginTop="10dp"
+        android:padding="8dp"
+        />
+
+    <TextView
+        android:padding="8dp"
+        android:textSize="16sp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="作者:大大大大大大....海狮,听所胖子都很善良。"
+        />
+
+    <TextView
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="联系我:\n电话：15209839517\n邮箱:eoeduo@163.com\nQQ:619189810\n主页:http://chenfuduo.me"
+        android:textSize="15sp"
+        android:textColor="@color/teal_500"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="本软件开源。"
+        />
+
+</LinearLayout>
